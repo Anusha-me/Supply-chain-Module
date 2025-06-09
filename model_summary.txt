@@ -1,0 +1,11 @@
+This project consists of two key functional modules:
+
+1. Forecasting Module:
+   - Uses Exponential Smoothing to generate demand forecasts
+   - Inputs: Time-series data (e.g., monthly sales)
+   - Outputs: Forecasted demand values
+
+2. Optimization Module:
+   - Solves the Transportation Problem using Linear Programming (PuLP)
+   - Inputs: Supply, Demand, Cost Matrix
+   - Outputs: Optimal shipping routes and total minimized cost
